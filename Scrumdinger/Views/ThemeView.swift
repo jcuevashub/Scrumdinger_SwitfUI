@@ -1,16 +1,14 @@
-//
-//  ThemeView.swift
-//  Scrumdinger
-//
-//  Created by Jackson Cuevas on 27/1/24.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
+
 struct ThemeView: View {
     let theme: Theme
     
     var body: some View {
-        Text(theme.name).background(theme.mainColor)
+        Text(theme.name)
             .padding(4)
             .frame(maxWidth: .infinity)
             .background(theme.mainColor)

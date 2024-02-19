@@ -1,16 +1,13 @@
-//
-//  DetailEditView.swift
-//  Scrumdinger
-//
-//  Created by Jackson Cuevas on 27/1/24.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
 struct DetailEditView: View {
     @Binding var scrum: DailyScrum
     @State private var newAttendeeName = ""
-    
+
     var body: some View {
         Form {
             Section(header: Text("Meeting Info")) {

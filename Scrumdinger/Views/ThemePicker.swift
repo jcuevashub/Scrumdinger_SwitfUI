@@ -1,9 +1,6 @@
-//
-//  ThemePicker.swift
-//  Scrumdinger
-//
-//  Created by Jackson Cuevas on 27/1/24.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
@@ -15,9 +12,9 @@ struct ThemePicker: View {
             ForEach(Theme.allCases) { theme in
                 ThemeView(theme: theme)
                     .tag(theme)
-                
             }
-        }.pickerStyle(.navigationLink)
+        }
+        .pickerStyle(.navigationLink)
     }
 }
 
